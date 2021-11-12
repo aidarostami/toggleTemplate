@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Unstoppable Survivability</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+	<div class="container">
+		<div class="skill-card-box boxShadow">
+			<div class="padding40">
+				<div class="cardTitle">
+					<img class="icon" src="img/triple-yin.svg">
+					<h2>Unstoppable <span>Survivability</span></h2>
+				</div><br>
+				<!-- Card Template -->
+				<my-com id="legendary-skill" name="Legendary Skill">
+					<h4 slot="skillDescription">Reduce engine repair time. At last mastery level gain reduced mobility with disabled engine.</h4>
+					<h4 slot="masteryLevel">Mastery 1/4</h4>
+					<span slot="masteryNumber">-2.5%</span>
+					<h4 slot="upgradeLevel">Upgrade on legendary rank 2</h4>
+					<span slot="upgradeNumber">-5%</span>
+				</my-com>
+				<my-com id="incredible-skill" name="Incredible Skill">
+					<h4 slot="skillDescription">Reduce engine repair time. At last mastery level gain reduced mobility with disabled engine.</h4>
+					<h4 slot="masteryLevel">Mastery 1/4</h4>
+					<span slot="masteryNumber">-5%</span>
+					<h4 slot="upgradeLevel">Upgrade on incredible rank 2</h4>
+					<span slot="upgradeNumber">-12%</span>
+				</my-com>
+				<my-com id="superior-skill" name="Superior Skill">
+					<h4 slot="skillDescription">Reduce engine repair time. At last mastery level gain reduced mobility with disabled engine.</h4>
+					<h4 slot="masteryLevel">Mastery 1/4</h4>
+					<span slot="masteryNumber">-3%</span>
+					<h4 slot="upgradeLevel">Upgrade on superior rank 2</h4>
+					<span slot="upgradeNumber">-10%</span>
+				</my-com><br>
+				<!-- Btn Toggle -->
+				<button id="legendary-skill-btn" onclick="toggleSkillLegendary()" disabled>Legendary Skill</button>
+				<button id="incredible-skill-btn" onclick="toggleSkillIncredible()">Incredible Skill</button>
+				<button id="superior-skill-btn" onclick="toggleSkillSuperior()">Superior Skill</button>
+
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="js/component.js"></script>
+	<script type="text/javascript" src="js/toggleSkills.js"></script>
+</body>
+</html>

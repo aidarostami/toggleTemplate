@@ -1,0 +1,77 @@
+@font-face {
+	font-family: FiraSansCondensedR;
+	src: url(../fonts/FiraSansCondensed-Regular.ttf);
+}
+@font-face {
+	font-family: FiraSansCondensedL;
+	src: url(../fonts/FiraSansCondensed-Light.ttf);
+}
+html, body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	display: table;
+	background: whitesmoke;
+	font-family: 'FiraSansCondensedL', sans-serif;
+	letter-spacing: .2px;
+}
+* {
+	text-align: left;
+}
+h1 , h2 , h3{
+	font-family: 'FiraSansCondensedR', sans-serif;
+}
+span {
+	color: #5fd1a1;
+	text-transform: uppercase;
+}
+button {
+	padding: 0.5em 1em;
+	margin: 0 0.3em 0.3em 0;
+	text-transform: uppercase;
+}
+.container {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+.skill-card-box {
+	width: 560px;
+	height: 720px;
+	margin-right: auto;
+	margin-left: auto;
+	border-radius: 10px;
+	background: url('../img/hexagon.png') repeat;
+	background-color: #0a0f18;
+	color: white;
+}
+.padding40 {
+	padding: 40px;
+
+}
+.boxShadow {
+	-webkit-box-shadow: 0px 0px 10px -6px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0px 0px 10px -6px rgba(0,0,0,0.2);
+	box-shadow: 0px 0px 10px -6px rgba(0,0,0,0.2);
+}
+img.icon {
+	width: 50px;
+	height: 50px;
+	margin-right: 10px;
+	vertical-align: middle;
+	display: table-cell;
+}
+.cardTitle {
+	display: flex;
+	vertical-align: middle;
+	justify-content: center;
+	align-items: center;
+}
+.cardTitle h2 {
+	vertical-align: middle;
+	display: table-cell;
+}
+#incredible-skill , #superior-skill {
+	display: none;
+}
